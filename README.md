@@ -44,6 +44,13 @@ A bare-metal driver development project using ESP32 and Wokwi simulation. The pr
 The project was developed and tested using the Wokwi online simulator.
 
 The simulation demonstrates the embedded firmware and peripheral communication without requiring physical hardware.
+### Wokwi Circuit
+
+![Wokwi Circuit](bare%20metal%20driver%202.png)
+
+### Simulation Output
+
+![Simulation Output](bare%20metal%20driver.jpeg)
 
 ## Learning Outcomes
 
