@@ -1,5 +1,7 @@
 # Bare-Metal Driver Development
 
+Run in wokwi: https://wokwi.com/projects/472401342507530241
+
 ## Overview
 
 A bare-metal driver development project using ATmega328P (Arduino UNO) and Wokwi simulation. The project focuses on implementing low-level peripheral drivers without relying on high-level driver libraries.
