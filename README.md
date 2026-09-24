@@ -2,7 +2,7 @@
 
 ## Overview
 
-A bare-metal driver development project using ESP32 and Wokwi simulation. The project focuses on implementing low-level peripheral drivers without relying on high-level driver libraries.
+A bare-metal driver development project using ATmega328P (Arduino UNO) and Wokwi simulation. The project focuses on implementing low-level peripheral drivers without relying on high-level driver libraries.
 
 ## Features
 
@@ -15,7 +15,7 @@ A bare-metal driver development project using ESP32 and Wokwi simulation. The pr
 
 ## Technologies Used
 
-- ESP32
+- ATmega328P (Arduino UNO)
 - Embedded C
 - GPIO
 - UART
