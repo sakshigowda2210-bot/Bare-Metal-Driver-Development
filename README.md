@@ -34,7 +34,7 @@ A bare-metal driver development project using ATmega328P (Arduino UNO) and Wokwi
 | `i2c.c` / `i2c.h` | I2C driver |
 | `spi.c` / `spi.h` | SPI driver |
 | `lcd.c` / `lcd.h` | LCD interface |
-| `ili9341.c` / `ili9341.h` | ILI9341 display interface |
+|  ILI9341 display interface (included, not used in the demo)
 | `diagram.json` | Wokwi circuit configuration |
 | `sketch.ino` | Wokwi/Arduino entry file |
 | `wokwi-project.txt` | Wokwi project configuration |
@@ -51,6 +51,12 @@ The simulation demonstrates the embedded firmware and peripheral communication w
 ### Simulation Output
 
 ![Simulation Output](bare%20metal%20driver%202.png)
+
+## Demo Output
+- UART: 9600 baud, prints initialization messages
+- I2C: LCD at address 0x27 (device detected, write ACK)
+- SPI: master mode, test bytes 0x55 and 0xAA
+- GPIO: button controls LED
 
 ## Learning Outcomes
 
