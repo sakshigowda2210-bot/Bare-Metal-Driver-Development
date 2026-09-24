@@ -1,6 +1,6 @@
 # Bare-Metal Driver Development
 
-Run in wokwi: https://wokwi.com/projects/472401342507530241
+Run in Wokwi: https://wokwi.com/projects/472401342507530241
 
 ## Overview
 
@@ -36,7 +36,7 @@ A bare-metal driver development project using ATmega328P (Arduino UNO) and Wokwi
 | `i2c.c` / `i2c.h` | I2C driver |
 | `spi.c` / `spi.h` | SPI driver |
 | `lcd.c` / `lcd.h` | LCD interface |
-|  ILI9341 display interface (included, not used in the demo)
+| `ili9341.c` / `ili9341.h` | ILI9341 display interface (included, not used in the demo) |
 | `diagram.json` | Wokwi circuit configuration |
 | `sketch.ino` | Wokwi/Arduino entry file |
 | `wokwi-project.txt` | Wokwi project configuration |
